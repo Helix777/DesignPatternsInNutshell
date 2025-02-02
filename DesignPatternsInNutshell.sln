@@ -1,9 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35506.116 d17.12
+VisualStudioVersion = 17.12.35506.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composition", "Composition\Composition.csproj", "{8031A056-9CDD-4B7D-9BBF-474612115B66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{6185DA1B-3CB0-42EB-AF0B-48FDEB095956}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Struktural", "Struktural", "{8CD55BF6-9D07-42FE-8D77-165E9550B41D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{6C99C85F-E99C-4AF6-ACDD-8615DFF2DB8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{CF09CB1B-4126-4033-A6C4-432F1FBC4625}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +23,15 @@ Global
 		{8031A056-9CDD-4B7D-9BBF-474612115B66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8031A056-9CDD-4B7D-9BBF-474612115B66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8031A056-9CDD-4B7D-9BBF-474612115B66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF09CB1B-4126-4033-A6C4-432F1FBC4625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF09CB1B-4126-4033-A6C4-432F1FBC4625}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF09CB1B-4126-4033-A6C4-432F1FBC4625}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF09CB1B-4126-4033-A6C4-432F1FBC4625}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF09CB1B-4126-4033-A6C4-432F1FBC4625} = {6185DA1B-3CB0-42EB-AF0B-48FDEB095956}
 	EndGlobalSection
 EndGlobal
