@@ -1,6 +1,4 @@
-﻿using System;
-
-// Klasa reprezentująca silnik
+﻿// Klasa reprezentująca silnik
 public class Engine
 {
     public void Ignite()
@@ -87,9 +85,9 @@ public class Car
 }
 
 // Run program
-class Program
+internal class Program
 {
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
         Car mojSamochod = new Car();
         mojSamochod.InflateWheels();
